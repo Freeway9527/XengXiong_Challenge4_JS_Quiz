@@ -1,0 +1,186 @@
+/* General styles for the entire page */
+body {
+    background-color: gray;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Styles for the main application container */
+.app {
+    background: floralwhite;
+    width: 50%;
+    max-width: 600px;
+    margin: 250px auto 0;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+/* Styles for unordered lists */
+ul {
+    list-style-type: square; 
+    margin: 10px 0; 
+    padding: 0; 
+}
+
+/* Styles for list items within unordered lists */
+ul li {
+    margin-bottom: 10px; 
+}
+
+/* Styles for elements inside welcome and result screens */
+.app #welcome-screen ul {
+    text-align: left; 
+}
+
+/* Styles for the welcome screen */
+#welcome-screen {
+    text-align: center;
+    max-width: 500px;
+    margin: auto;
+}
+
+/* Styles for the quiz screen */
+#quiz-screen {
+    text-align: center;
+    max-width: 500px;
+    margin: auto;
+}
+
+/* Styles for the result screen */
+#result-screen {
+    text-align: center;
+    max-width: 500px;
+    margin: auto;
+}
+
+/* Styles for buttons */
+.btn {
+    background: rgb(255, 255, 255);
+    color: black;
+    font-weight: 200;
+    width: 100%;
+    border: 1px solid blue;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: left;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Styles for hover effect on buttons */
+.btn:hover:not([disabled]) {
+    background: lightgray;
+    color: white;
+}
+
+/* Styles for the "Next" button */
+#next-btn {
+    background: black;
+    color: white;
+    font-weight: 500;
+    width: 150px;
+    border: 0;
+    padding: 10px;
+    text-align: center;
+    margin: 20px auto 0;
+    border-radius: 4px;
+    cursor: pointer;
+    display: none;
+}
+
+/* Styles for hover effect on the "Next" button */
+#next-btn:hover{
+    background: lightgray;
+    color: white;
+}
+
+/* Styles for answer buttons */
+#answer-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+/* Styles for button container */
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+
+/* Styles for the start button */
+#start-button {
+    font-size: 2em; /* Adjust the font size as needed */
+    text-align: center; /* Center the text inside the button */
+    margin: 5px 100px 5px;
+    padding: 5px 5px;
+}
+
+/* Styles for button container inside the result screen */
+#result-screen .button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+/* Styles for buttons inside the result screen */
+#result-screen .button-container button {
+    font-size: 1.5em; /* Adjust the font size as needed */
+    text-align: center; /* Center the text inside the button */
+    margin: 15px 150px 5px;
+    padding: 5px 5px;
+}
+
+/* Styles for the timer */
+#timer {
+    margin-top: 20px;
+}
+
+/* Styles for the input field for name */
+#name {
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+/* Styles for correct answer button */
+.correct {
+    background-color: lightgreen;
+}
+
+/* Styles for incorrect answer button */
+.incorrect {
+    background-color: lightcoral;
+}
+
+/* Styles for the result section */
+.result {
+    text-align: center;
+    max-width: 500px;
+    margin: auto;
+}
+
+/* Styles for labels inside result section */
+.result label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Styles for buttons inside result section */
+.result button {
+    margin-top: 10px;
+}
+
+/* Styles for result summary */
+.result-summary p {
+    margin: 10px 0;
+}
+
+/* Styles for centering elements */
+.center {
+    display: block;
+    margin: 0 auto;
+}

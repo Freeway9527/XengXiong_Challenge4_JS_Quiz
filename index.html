@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Quiz</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+    <main class="app">
+        <!--welcome screen-->
+        <header id="welcome-screen">
+
+            <h1>Welcome to the JavaScript Fundamentals Quiz</h1>
+            <p>Please read the instructions before proceeding:</p>
+            
+            <ul>
+                <li>You have 3 minutes to complete the quiz.</li>
+                <li>Each correct answer will will be one point.</li>
+                <li>For each wrong answer, 10 seconds will be deducted from the timer.</li>
+                <li>Click "Next" to move to the next question.</li>
+                <li>When you are done, enter your name save your test</li>
+            </ul>
+
+            <section class="button-container">
+                <button id="start-button" class="btn">Start test</button>
+            </section>
+
+        </header>
+
+        <!-- Quiz Screen -->
+        <section id="quiz-screen" class="quiz" style="display: none;">
+
+            <h2 id="question" class="question">Input quiz questions here</h2>
+            <nav id="answer-buttons" class="answer-buttons">
+                <button class="btn">Answer 1</button>
+                <button class="btn">Answer 2</button>
+                <button class="btn">Answer 3</button>
+                <button class="btn">Answer 4</button>
+            </nav>
+
+            <button id="next-btn" class="btn">Next</button>
+            <section id="timer" class="timer">Time remaining: 3 minutes</section>
+
+        </section>
+
+        <!-- Result Screen -->
+        <section id="result-screen" class="result" style="display: none;">
+
+            <h2>Quiz Result</h2>
+            <section id="result-summary" class="result-summary">
+                <p>Your score: <span id="score">0</span></p>
+                <p>Time taken: <span id="time">0 seconds</span></p>
+            </section>
+
+            <label for="name">Please Enter Your name:</label>
+            <input type="text" id="name" class="name" placeholder="Please enter your name">
+            <section class="button-container">
+                <button id="save-button" onclick="saveResult()" class="btn center">Save</button>
+            </section>
+
+          
+
+        </section>
+
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>

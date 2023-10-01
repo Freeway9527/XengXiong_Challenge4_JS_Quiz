@@ -32,7 +32,6 @@ to take the quiz as following:
 https://freeway9527.github.io/XengXiong_Challenge4_JS_Quiz/
 
 
-
 # References 
 
 Coding Ninjas. (2023, September 26). Coding Ninjas Studio. Retrieved September 27, 2023, from https://www.codingninjas.com/studio/library/how-to-create-a-javascript-quiz-code

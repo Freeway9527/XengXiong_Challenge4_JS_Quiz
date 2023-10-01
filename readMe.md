@@ -29,8 +29,7 @@ to take the quiz as following:
 
 # Link to deplpoyed application
 
-
-
+https://freeway9527.github.io/XengXiong_Challenge4_JS_Quiz/
 
 
 

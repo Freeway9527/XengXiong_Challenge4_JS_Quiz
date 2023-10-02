@@ -9,13 +9,13 @@ to take the quiz as following:
             *Each correct answer will be one point.
             *For each wrong answer, 10 seconds will be deducted from the timer.
             *Click "Next" to move to the next question.
-            *When you are done, enter your name save your test.
+            *When you are done, enter your name and save your test.
 
 * After you are done reading the instruction go ahead and click the "START TEST" button and your test will start.
 
 * The is a mutiple choice quiz. Pick the best answer for each question. You only have one chance when your answer is selected. It will be mark as "green" for correct and "red" as wrong. A button will than appear call "NEXT", click on it to go to the next question. 
 
-* When you finish or when the time runs out, you will be navaigated to the results page where you will see how you did. Each question you answer correctly is score as 1 point. The time that it took for you to complete the test will also be shown as a result. Any questions you answer wrong and had time taken off will reflect in the time. 
+* When you finish or when the time runs out, you will be navaigated to the results page where you will see how your results. Each question you answer correctly is score as 1 point. The time that it took for you to complete the test will also be shown as a result. Any questions you answer wrong and had time taken off will reflect in the time. 
 
 * You will need to enter your name and save your test score. After saving you can close out the test.
 
